@@ -89,6 +89,6 @@ class MainActivity : AppCompatActivity() {
 
     fun increaseScore(view:View){
         score++
-        scoreText.text = "Score: ${score}"
+        scoreText.text = "Score: $score"
     }
 }
